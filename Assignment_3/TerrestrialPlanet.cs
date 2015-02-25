@@ -18,12 +18,8 @@ namespace Assignment_3
             this._oxyzen = oxyzen;
         }
 
-        interface IHasMoons
-        {
-            void HasMoons()
-            {
-            }
-        }
+        
+        //INTERFACE IHasRings METHOD
         interface IHasRings
         {
             void HasRings()
@@ -31,6 +27,7 @@ namespace Assignment_3
                 return bool 
             }
         }
+        //INTERFACE IHabitable METHOD
         interface IHabitable
         {
             void Habitable()
