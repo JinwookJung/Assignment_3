@@ -9,7 +9,7 @@ namespace Assignment_3
     class GiantPlanet : Planet
     {
         //PRIVATE INSTANCE VARIABLE++++++++++++++++++++++++++++++++++++++==
-        private string _type = "Gas","Ice";
+        private string _type = "Gas", "Ice";
 
         //CONSTRUCTOR METHODS++++++++++++++++++++++++++++++++++++++++++++
         public GiantPlanet(string name, double diameter, double mass, string type)
@@ -19,8 +19,27 @@ namespace Assignment_3
         }
 
         //IMPLEMENT HasMoon METHOD
-        if (MoonCount > 0)
-    {
-    }
+       public override bool HasMoons()
+       {
+           if (MoonCount > 0)
+           {
+               return true;
+               }
+           else 
+           {
+              return false;
+           }
+       }
+        public override bool HasRings()
+       {
+           if (RingCount > 0)
+           {
+               return true;
+               }
+           else 
+           {
+              return false;
+           }
+       }
     }
 }

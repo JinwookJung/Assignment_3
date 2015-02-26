@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Assignment_3
 {
-    //INTERFACE IHabitable METHOD
+    //INTERFACE IHasMoons METHOD
     interface IHasMoons
     {
-        void IHasMoons();           
+        void HasMoons();           
     }
 }

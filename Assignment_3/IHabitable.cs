@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Assignment_3
 {
-    //INTERFACE IHasRings METHOD
+    //INTERFACE IHabitable METHOD
     interface IHabitable
     {
-        void Habitable();
+        bool Habitable();
     }
 }

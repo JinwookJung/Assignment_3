@@ -9,6 +9,6 @@ namespace Assignment_3
     //INTERFACE IHasRings METHOD
     interface IHasRings
     {
-        void HasRings();
+        bool HasRings();
     }
 }

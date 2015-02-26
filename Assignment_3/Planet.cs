@@ -93,8 +93,6 @@ namespace Assignment_3
             this._mass = mass;
         }
 
-        abstract public Tostring()
-        {
-        }
+        
     }
 }

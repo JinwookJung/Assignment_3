@@ -10,6 +10,8 @@ namespace Assignment_3
     {
         static void Main(string[] args)
         {
+            GiantPlanet giantPlanet = new GiantPlanet("Jinwook", 50000, 200, Gas);
+
 
         }
     }
