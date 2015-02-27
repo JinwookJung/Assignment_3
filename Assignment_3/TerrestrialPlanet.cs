@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Assignment_3
 {
-    class TerrestrialPlanet : Planet
+    class TerrestrialPlanet : Planet, IHasMoons, IHabitable
     {
         //PRIVATE INSTANCE VARIALBE +++++++++++++++++++++++++++++++++++++++++
         private bool _oxyzen;
@@ -17,22 +17,45 @@ namespace Assignment_3
         {
             this._oxyzen = oxyzen;
         }
-
+        //PROPERTY
+        public bool Oxyzen
+        {
+            get 
+            {
+                return this._oxyzen;
+            }
+            set 
+            {
+                this._oxyzen = value;
+            }
+        }
         
-        //INTERFACE IHasRings METHOD
-        interface IHasRings
+        //implement IHasRings METHOD
+ 
+        public bool HasMoons()
+       {
+           if (MoonCount > 0)
+           {
+               return true;
+               }
+           else 
+           {
+              return false;
+           }
+       }
+        
+        //implement IHabitable METHOD
+        public bool Habitable()
         {
-            void HasRings()
+            if (this._oxyzen == true)
             {
-                return bool 
+                return true;
+            }
+            else
+            {
+                return false;
             }
         }
-        //INTERFACE IHabitable METHOD
-        interface IHabitable
-        {
-            void Habitable()
-            {
-            }
-        }
+        
     }
 }

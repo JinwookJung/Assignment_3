@@ -9,6 +9,6 @@ namespace Assignment_3
     //INTERFACE IHasMoons METHOD
     interface IHasMoons
     {
-        void HasMoons();           
+        bool HasMoons();  
     }
 }

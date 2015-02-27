@@ -23,55 +23,55 @@ namespace Assignment_3
         public double Diameter
         {
             get
-            { 
-              return _diameter;
+            {
+                return this._diameter;
             }
         }
         public double Mass
         {
             get
             {
-                return _mass;
+                return this._mass;
             }
         }
-        public double MoonCount
+        public int MoonCount
         {
             get
             {
-                return _moonCount;
+                return this._moonCount;
             }
             set
             {
-                value = _moonCount;
+                this._moonCount = value;
             }
         }
         public string Name
         {
             get
             {
-                return _name;
+                return this._name;
             }
         }
         public double OrbitalPeriod
         {
             get
             {
-                return _orbitalPeriod;
+                return this._orbitalPeriod;
             }
             set
             {
-                value = _orbitalPeriod;
+                this._orbitalPeriod = value;
             }
         }
-        public double RingCount
+        public int RingCount
         {
             get
             {
-                return _ringCount;
+                return this._ringCount;
             }
             set
             {
-                value = _ringCount;
+                this._ringCount = value;
             }
         }
         public double RotationPeriod
@@ -92,7 +92,11 @@ namespace Assignment_3
             this._diameter = diameter;
             this._mass = mass;
         }
+        //Override ToString Method
+        public override string ToString()
+        {
+            return ("Name: " + Name + "," + " Diameter: " + Diameter + "," + " Mass: "  + Mass);
+        }
 
-        
     }
 }
