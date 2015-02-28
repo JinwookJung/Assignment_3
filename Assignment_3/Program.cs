@@ -1,5 +1,5 @@
 ﻿/*the Author's name: Jinwook Jung
- * Date last Modified: 26 FEB 2015
+ * Date last Modified: 27 FEB 2015
  * Program description: This program instatiate an giantPlanet object of GiantPlanet class as well as terrestrialPlanet in TerrestrialPlanet.
  *                      Also, display each planet instance variable.
  * Revision History: Feb 24, 2015 Initial commit to add default .gitIgnore and .gitAttribute files.
@@ -7,6 +7,7 @@
  *                      Feb 25, 2015 Revised version
  *                      Feb 26, 2015 revision
  *                                   Final
+ *                      Feb 27, 2015 Final version
  */
 
 using System;

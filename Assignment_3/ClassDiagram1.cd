@@ -23,7 +23,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="Assignment_3.TerrestrialPlanet">
-    <Position X="7.25" Y="4.25" Width="3.75" />
+    <Position X="7" Y="4.25" Width="3.75" />
     <TypeIdentifier>
       <HashCode>CAAAAAAAAAAAAAQAAAAABAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
       <FileName>TerrestrialPlanet.cs</FileName>
