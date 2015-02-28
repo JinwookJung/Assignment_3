@@ -1,11 +1,13 @@
 ﻿/*the Author's name: Jinwook Jung
  * Date last Modified: 26 FEB 2015
- * Program description: Feb 24, 2015 Initial commit to add default .gitIgnore and .gitAttribute files.
- *                                   Added Classes
+ * Program description: This program instatiate an giantPlanet object of GiantPlanet class as well as terrestrialPlanet in TerrestrialPlanet.
+ *                      Also, display each planet instance variable.
+ * Revision History: Feb 24, 2015 Initial commit to add default .gitIgnore and .gitAttribute files.
+ *                                Added Classes
  *                      Feb 25, 2015 Revised version
  *                      Feb 26, 2015 revision
-Revision
-History*/
+ *                                   Final
+ */
 
 using System;
 using System.Collections.Generic;
@@ -30,6 +32,15 @@ namespace Assignment_3
             Console.WriteLine("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
             Console.WriteLine(terrestrialPlanet.ToString() + " Oxyzen: " + terrestrialPlanet.Oxyzen);
             Console.WriteLine("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+
+
+            waitForAnyKey();
+        }
+        public static void waitForAnyKey()
+        {
+            Console.WriteLine("Press any key to continue...");
+
+            Console.ReadKey();
         }
     }
 }
